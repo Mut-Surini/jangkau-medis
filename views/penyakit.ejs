@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= penyakit.Nama_penyakit %></title>
+  </head>
+  <body>
+    <h1><%= penyakit.Nama_penyakit %> (<%= penyakit.Istilah_medis %>)</h1>
+    <p><strong>Kode ICD:</strong> <%= penyakit.Kode_ICD %></p>
+    <p>
+      <strong>Kategori:</strong> <%= penyakit.Kategori_penyakit.join(', ') %>
+    </p>
+    <p><strong>Definisi:</strong> <%= penyakit.Definisi %></p>
+
+    <h2>Penyebab</h2>
+    <ul>
+      <% Object.values(penyakit.Penyebab).forEach(cause => { %>
+      <li>
+        <strong><%= cause.nama %>:</strong> <%= cause.penyebab.join(', ') %>
+      </li>
+      <% }) %>
+    </ul>
+
+    <h2>Klasifikasi</h2>
+    <ul>
+      <% Object.values(penyakit.Klasifikasi).forEach(klass => { %>
+      <li><strong><%= klass.nama %>:</strong> <%= klass.jenis.join(', ') %></li>
+      <% }) %>
+    </ul>
+
+    <h2>Gejala</h2>
+    <ul>
+      <% Object.values(penyakit.Gejala).forEach(gejala => { %>
+      <li>
+        <strong><%= gejala.nama %>:</strong> <%= gejala.gejala.join(', ') %>
+      </li>
+      <% }) %>
+    </ul>
+
+    <h2>Diagnosis</h2>
+    <ul>
+      <% Object.values(penyakit.Diagnosis).forEach(diag => { %>
+      <li><strong><%= diag.nama %>:</strong> <%= diag.metode.join(', ') %></li>
+      <% }) %>
+    </ul>
+
+    <h2>Cara Penanganan</h2>
+    <% Object.values(penyakit.Cara_Penanganan).forEach(treatment => { %>
+    <h3><%= treatment.nama %></h3>
+    <ul>
+      <li>
+        <%= treatment.jenis ? treatment.jenis.join(', ') :
+        treatment.kriteria.join(', ') %>
+      </li>
+    </ul>
+    <% }) %>
+
+    <h2>Pencegahan</h2>
+    <ul>
+      <li><%= penyakit.Pencegahan.langkah.join(', ') %></li>
+    </ul>
+
+    <h2>Prognosis</h2>
+    <p><%= penyakit.Prognosis.deskripsi %></p>
+  </body>
+</html>

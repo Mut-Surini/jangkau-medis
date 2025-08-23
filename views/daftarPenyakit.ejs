@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Daftar Penyakit</title>
+  </head>
+  <body>
+    <h1>Daftar Penyakit</h1>
+
+    <ul>
+      <% penyakitData.forEach(penyakit => { %>
+      <li>
+        <h2>
+          <a href="/penyakit/<%= penyakit.Nama_penyakit.toLowerCase() %>">
+            <%= penyakit.Nama_penyakit %>
+          </a>
+        </h2>
+        <p><strong>Kode ICD:</strong> <%= penyakit.Kode_ICD %></p>
+        <p>
+          <strong>Kategori:</strong> <%= penyakit.Kategori_penyakit.join(', ')
+          %>
+        </p>
+        <p><strong>Definisi singkat:</strong> <%= penyakit.Definisi %></p>
+      </li>
+      <hr />
+      <% }) %>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,1654 @@
+[
+  {
+    "Nama_penyakit": "Batuk",
+    "Kode_ICD": "R05",
+    "Istilah_medis": "Tussis",
+    "Kategori_penyakit": [
+      "Penyakit Saluran Pernapasan",
+      "Gejala/Manifestasi Klinis"
+    ],
+    "Definisi": "Batuk adalah refleks tubuh untuk membersihkan saluran pernapasan dari iritan, lendir, atau benda asing.",
+    "Penyebab": {
+      "infeksi": {
+        "nama": "Infeksi",
+        "penyebab": [
+          "Virus (flu, bronkitis, COVID-19)",
+          "Bakteri (TBC, pneumonia)"
+        ]
+      },
+      "iritasi": {
+        "nama": "Iritasi",
+        "penyebab": ["Asap rokok", "Polusi udara", "Debu", "Zat Kimia"]
+      },
+      "kondisi_medis_lain": {
+        "nama": "Kondisi Medis Lain",
+        "penyebab": ["Asma", "Pneumonia"]
+      },
+      "obat-obatan": {
+        "nama": "Obat-obatan",
+        "penyebab": ["ACE-inhibitor"]
+      }
+    },
+    "Klasifikasi": {
+      "durasi": {
+        "nama": "Berdasarkan Durasi",
+        "jenis": [
+          "Akut (< 3 Minggu)",
+          "Subakut (3-8 Minggu)",
+          "Kronis (> 8 Minggu)"
+        ]
+      },
+      "karakteristik": {
+        "nama": "Berdasarkan Karakteristik",
+        "jenis": [
+          "Batuk Kering (Non-produktif)",
+          "Batuk Berdahak (Produktif)",
+          "Batuk Darah (Hemoptisis)",
+          "Batuk Rejan / Pertusis"
+        ]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Keluarnya suara “Batuk” dengan atau tanpa lendir"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Tenggorokan Gatal",
+          "Sesak Napas",
+          "Dada Terasa Berat",
+          "Demam Jika Infeksi",
+          "Nyeri Saat Batuk",
+          "Kehilangan Suara"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": [
+          "Riwayat Batuk (Durasi, Karakteristik)",
+          "Gejala Penyerta",
+          "Riwayat Medis dan Alergi",
+          "Paparan Iritan atau Infeksi"
+        ]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Auskultasi Paru", "Palpasi Dada", "Pemeriksaan Tenggorokan"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Rontgen Dada", "CT Scan", "Tes Laboratorium"]
+      }
+    },
+    "Kompilasi": [
+      "Pneumonia",
+      "TBC",
+      "Asma",
+      "Bronkitis",
+      "Gagal Jantung",
+      "Kanker Paru",
+      "Robeknya Pembuluh Darah"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": [
+          "Istirahat yang cukup",
+          "Hidrasi yang adekuat",
+          "Penggunaan humidifier",
+          "Menghindari iritan"
+        ]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Antitusif",
+          "Ekspektoran",
+          "Bronkodilator",
+          "Antibiotik (jika infeksi bakteri)"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Jahe", "Kunyit", "Madu", "Lemon"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Batuk berkepanjangan",
+          "Batuk disertai demam tinggi",
+          "Kesulitan bernapas",
+          "Batuk berdarah"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Vaksinasi (jika tersedia)",
+        "Menghindari paparan iritan",
+        "Menjaga kebersihan tangan",
+        "Mengelola alergi dengan baik"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Sebagian besar kasus batuk dapat sembuh dengan pengobatan yang tepat. Namun, batuk yang berkepanjangan atau disertai gejala berat memerlukan evaluasi lebih lanjut."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Demam",
+    "Kode_ICD": "R50",
+    "Istilah_medis": "Febris",
+    "Kategori_penyakit": ["Gejala Sistemik", "Penyakit Infeksi"],
+    "Definisi": "Demam adalah peningkatan suhu tubuh di atas normal (≥ 37,5°C) sebagai respons tubuh terhadap infeksi, peradangan, atau kondisi medis lainnya.",
+    "Penyebab": {
+      "infeksi": {
+        "nama": "Infeksi",
+        "penyebab": [
+          "Virus (flu, COVID-19, dengue)",
+          "Bakteri (Salmonella, Streptococcus)",
+          "Parasit (Malaria)"
+        ]
+      },
+      "peradangan": {
+        "nama": "Peradangan / Autoimun",
+        "penyebab": ["Artritis reumatoid", "Lupus Eritematosus Sistemik"]
+      },
+      "kondisi_medis_lain": {
+        "nama": "Kondisi Medis Lain",
+        "penyebab": ["Kanker", "Hipertermia akibat olahraga"]
+      },
+      "obat-obatan": {
+        "nama": "Obat-obatan",
+        "penyebab": ["Vaksinasi", "Beberapa antibiotik dan kemoterapi"]
+      }
+    },
+    "Klasifikasi": {
+      "durasi": {
+        "nama": "Berdasarkan Durasi",
+        "jenis": [
+          "Demam Akut (< 7 Hari)",
+          "Demam Subakut (7-14 Hari)",
+          "Demam Kronis (> 14 Hari)"
+        ]
+      },
+      "tingkat": {
+        "nama": "Berdasarkan Tingkat Suhu",
+        "jenis": [
+          "Demam Ringan (37,5–38°C)",
+          "Demam Sedang (38–39°C)",
+          "Demam Tinggi (> 39°C)"
+        ]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Peningkatan suhu tubuh"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Menggigil",
+          "Keringat berlebih",
+          "Nyeri kepala",
+          "Kelelahan",
+          "Nyeri otot",
+          "Mual atau muntah"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": [
+          "Riwayat suhu tubuh dan durasi demam",
+          "Gejala penyerta",
+          "Riwayat kontak dengan orang sakit atau hewan",
+          "Penggunaan obat-obatan"
+        ]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": [
+          "Pengukuran suhu tubuh",
+          "Pemeriksaan tanda vital",
+          "Pemeriksaan umum tubuh"
+        ]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": [
+          "Tes darah lengkap",
+          "Tes urine",
+          "Pemeriksaan cepat untuk virus/bakteri"
+        ]
+      }
+    },
+    "Kompilasi": [
+      "Infeksi virus",
+      "Infeksi bakteri",
+      "Malaria",
+      "Penyakit autoimun",
+      "Kanker"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": [
+          "Istirahat cukup",
+          "Hidrasi adekuat",
+          "Kompres dingin",
+          "Menghindari aktivitas berat"
+        ]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Antipiretik (Paracetamol, Ibuprofen)",
+          "Obat sesuai penyebab"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Jahe", "Daun sirih", "Teh chamomile"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Demam > 3 hari tanpa sebab jelas",
+          "Demam > 40°C",
+          "Demam disertai kejang atau sesak napas",
+          "Demam pada bayi atau lansia"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Vaksinasi (flu, COVID-19, dengue jika tersedia)",
+        "Menjaga kebersihan tangan",
+        "Hindari kontak dengan orang sakit",
+        "Konsumsi makanan bergizi"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Sebagian besar kasus demam ringan membaik dengan perawatan sederhana. Demam berkepanjangan memerlukan evaluasi lebih lanjut untuk mengidentifikasi penyebab."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Flu",
+    "Kode_ICD": "J10",
+    "Istilah_medis": "Influenza",
+    "Kategori_penyakit": ["Penyakit Saluran Pernapasan", "Infeksi Virus"],
+    "Definisi": "Flu adalah infeksi saluran pernapasan yang disebabkan oleh virus influenza, ditandai dengan demam, batuk, pilek, nyeri otot, dan kelelahan.",
+    "Penyebab": {
+      "infeksi": {
+        "nama": "Infeksi Virus",
+        "penyebab": ["Virus Influenza A, B, dan C"]
+      },
+      "kondisi_medis_lain": {
+        "nama": "Kondisi Medis Lain",
+        "penyebab": [
+          "Asma",
+          "Diabetes",
+          "Penyakit jantung kronis dapat memperburuk gejala"
+        ]
+      }
+    },
+    "Klasifikasi": {
+      "durasi": {
+        "nama": "Berdasarkan Durasi",
+        "jenis": ["Flu Akut (1–2 minggu)"]
+      },
+      "keparahan": {
+        "nama": "Berdasarkan Tingkat Keparahan",
+        "jenis": ["Ringan", "Sedang", "Berat / Komplikasi (misal pneumonia)"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": [
+          "Demam tinggi mendadak",
+          "Batuk kering",
+          "Pilek",
+          "Sakit kepala"
+        ]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Nyeri otot dan sendi",
+          "Kelelahan ekstrem",
+          "Mual dan muntah",
+          "Hilang nafsu makan",
+          "Hidung tersumbat atau meler"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": [
+          "Riwayat gejala (demam, batuk, pilek)",
+          "Riwayat kontak dengan penderita flu",
+          "Riwayat vaksinasi"
+        ]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": [
+          "Pengukuran suhu tubuh",
+          "Pemeriksaan tenggorokan",
+          "Pemeriksaan paru"
+        ]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": [
+          "Tes cepat influenza (rapid test)",
+          "Tes PCR virus influenza"
+        ]
+      }
+    },
+    "Kompilasi": [
+      "Pneumonia sekunder",
+      "Bronkitis",
+      "Sinusitis",
+      "Komplikasi pada penderita kronis (asma, jantung, diabetes)"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": [
+          "Istirahat cukup",
+          "Hidrasi adekuat",
+          "Kompres dingin untuk demam",
+          "Menghindari kontak dengan orang lain"
+        ]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Antipiretik",
+          "Antiviral jika indikasi",
+          "Obat pereda gejala (dekongestan, analgesik)"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Jahe", "Madu", "Teh hangat", "Vitamin C"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Demam tinggi > 3 hari",
+          "Sesak napas atau dada nyeri",
+          "Batuk berdarah",
+          "Gejala berat pada bayi, lansia, atau penderita kronis"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Vaksinasi flu tahunan",
+        "Menjaga kebersihan tangan",
+        "Hindari kontak dengan orang sakit",
+        "Gunakan masker saat flu menyebar"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Sebagian besar kasus flu ringan sembuh dalam 1–2 minggu. Komplikasi dapat terjadi pada penderita dengan kondisi kronis atau sistem imun lemah."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Diare",
+    "Kode_ICD": "A09",
+    "Istilah_medis": "Diarrhea",
+    "Kategori_penyakit": [
+      "Penyakit Saluran Pencernaan",
+      "Gejala/Manifestasi Klinis"
+    ],
+    "Definisi": "Diare adalah peningkatan frekuensi buang air besar dengan tinja yang encer atau berair.",
+    "Penyebab": {
+      "infeksi": {
+        "nama": "Infeksi",
+        "penyebab": [
+          "Virus (Rotavirus, Norovirus)",
+          "Bakteri (E. coli, Salmonella)",
+          "Parasit (Giardia)"
+        ]
+      },
+      "makanan": {
+        "nama": "Gangguan Pencernaan / Makanan",
+        "penyebab": [
+          "Keracunan makanan",
+          "Intoleransi laktosa",
+          "Alergi makanan"
+        ]
+      },
+      "kondisi_medis_lain": {
+        "nama": "Kondisi Medis Lain",
+        "penyebab": ["IBS", "Kolitis Ulseratif"]
+      }
+    },
+    "Klasifikasi": {
+      "durasi": {
+        "nama": "Berdasarkan Durasi",
+        "jenis": ["Akut (< 2 Minggu)", "Kronis (> 4 Minggu)"]
+      },
+      "jenis": {
+        "nama": "Berdasarkan Karakteristik",
+        "jenis": [
+          "Diare Air",
+          "Diare Berdarah / Disentri",
+          "Diare Lemak / Steatorea"
+        ]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Buang air besar encer lebih dari 3 kali sehari"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Kram perut",
+          "Mual dan muntah",
+          "Demam ringan",
+          "Dehidrasi",
+          "Kehilangan nafsu makan"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": [
+          "Riwayat tinja",
+          "Riwayat makanan dan obat-obatan",
+          "Kontak dengan penderita diare"
+        ]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Tanda dehidrasi", "Palpasi abdomen"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Tes tinja (kultur, parasit, darah)", "Tes darah lengkap"]
+      }
+    },
+    "Kompilasi": [
+      "Infeksi usus",
+      "Keracunan makanan",
+      "IBS",
+      "Kolitis Ulseratif"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": [
+          "Hidrasi oral atau IV",
+          "Istirahat cukup",
+          "Diet ringan / BRAT diet"
+        ]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Oralit / Rehidrasi",
+          "Antibiotik jika infeksi bakteri",
+          "Antimotilitas jika aman"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Air rebusan chamomile", "Daun jambu biji"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Diare berdarah",
+          "Dehidrasi berat",
+          "Demam tinggi",
+          "Diare berkepanjangan > 7 hari"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Hindari makanan/minuman terkontaminasi",
+        "Cuci tangan dengan sabun",
+        "Masak makanan hingga matang"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Mayoritas diare akut membaik dalam beberapa hari. Komplikasi terutama dehidrasi dapat berakibat serius pada anak-anak dan lansia."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Maag / GERD",
+    "Kode_ICD": "K21",
+    "Istilah_medis": "Gastroesophageal Reflux Disease",
+    "Kategori_penyakit": [
+      "Penyakit Saluran Pencernaan",
+      "Gangguan Asam Lambung"
+    ],
+    "Definisi": "GERD adalah kondisi refluks asam lambung ke kerongkongan yang menyebabkan rasa panas di dada (heartburn), mual, dan regurgitasi.",
+    "Penyebab": {
+      "faktor_gaya_hidup": {
+        "nama": "Faktor Gaya Hidup",
+        "penyebab": ["Makanan pedas / berlemak", "Kafein", "Alkohol", "Merokok"]
+      },
+      "kondisi_medis": {
+        "nama": "Kondisi Medis",
+        "penyebab": ["Hernia hiatal", "Obesitas", "Kehamilan"]
+      },
+      "obat-obatan": {
+        "nama": "Obat-obatan",
+        "penyebab": ["NSAID", "Obat hipertensi tertentu"]
+      }
+    },
+    "Klasifikasi": {
+      "keparahan": {
+        "nama": "Berdasarkan Keparahan",
+        "jenis": ["Ringan", "Sedang", "Berat / Ulkus Esofagus"]
+      },
+      "durasi": {
+        "nama": "Berdasarkan Durasi",
+        "jenis": ["Akut (< 4 Minggu)", "Kronis (> 3 Bulan)"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Heartburn / rasa panas di dada", "Regurgitasi asam"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Mual",
+          "Sulit menelan",
+          "Batuk kronis",
+          "Nyeri tenggorokan",
+          "Suara serak"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": [
+          "Riwayat gejala heartburn",
+          "Riwayat makanan dan obat",
+          "Riwayat komorbiditas"
+        ]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Palpasi abdomen", "Pemeriksaan berat badan"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Endoskopi Esofagus", "pH monitoring", "Tes H. pylori"]
+      }
+    },
+    "Kompilasi": ["Ulkus peptikum", "Esofagitis", "Barrett's esophagus"],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": [
+          "Hindari makanan pemicu",
+          "Makan lebih kecil tapi sering",
+          "Hindari berbaring setelah makan"
+        ]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": ["Antasida", "H2 blocker", "PPI (Proton Pump Inhibitor)"]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Aloe vera", "Jahe", "Teh chamomile"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Nyeri dada berat",
+          "Sulit menelan",
+          "Muntah berdarah",
+          "GERD kronis tidak membaik"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Hindari makanan pedas / berlemak",
+        "Hindari alkohol dan merokok",
+        "Pertahankan berat badan sehat"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Gejala dapat dikendalikan dengan perubahan gaya hidup dan obat. Komplikasi kronis jarang terjadi jika ditangani dengan baik."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Hipertensi",
+    "Kode_ICD": "I10",
+    "Istilah_medis": "High Blood Pressure",
+    "Kategori_penyakit": [
+      "Penyakit Sistemik",
+      "Penyakit Jantung & Pembuluh Darah"
+    ],
+    "Definisi": "Hipertensi adalah kondisi tekanan darah kronis yang lebih tinggi dari normal (≥140/90 mmHg), meningkatkan risiko penyakit jantung dan stroke.",
+    "Penyebab": {
+      "faktor_genetik": {
+        "nama": "Faktor Genetik",
+        "penyebab": ["Riwayat keluarga hipertensi"]
+      },
+      "faktor_gaya_hidup": {
+        "nama": "Faktor Gaya Hidup",
+        "penyebab": [
+          "Obesitas",
+          "Diet tinggi garam",
+          "Kurang aktivitas fisik",
+          "Merokok"
+        ]
+      },
+      "kondisi_medis": {
+        "nama": "Kondisi Medis Lain",
+        "penyebab": ["Diabetes", "Penyakit ginjal kronis"]
+      }
+    },
+    "Klasifikasi": {
+      "tingkat": {
+        "nama": "Berdasarkan Tingkat Tekanan Darah",
+        "jenis": [
+          "Hipertensi Ringan (140-159/90-99)",
+          "Sedang (160-179/100-109)",
+          "Berat (≥180/≥110)"
+        ]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Hipertensi sering tanpa gejala"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": ["Sakit kepala", "Pusing", "Mata kabur", "Sesak napas"]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat tekanan darah", "Riwayat keluarga", "Faktor risiko"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Pengukuran tekanan darah berulang", "Pemeriksaan jantung"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Tes darah", "EKG", "Ekokardiografi"]
+      }
+    },
+    "Kompilasi": [
+      "Stroke",
+      "Gagal jantung",
+      "Serangan jantung",
+      "Gagal ginjal"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": [
+          "Diet rendah garam",
+          "Aktivitas fisik teratur",
+          "Mengurangi stres"
+        ]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "ACE inhibitor",
+          "Beta-blocker",
+          "Diuretik",
+          "Calcium channel blocker"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Daun salam", "Bawang putih", "Habbatussauda"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Hipertensi berat",
+          "Hipertensi yang sulit dikontrol",
+          "Komplikasi jantung atau ginjal"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Diet sehat",
+        "Olahraga rutin",
+        "Hindari merokok dan alkohol",
+        "Kontrol berat badan"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Dengan pengelolaan gaya hidup dan obat, hipertensi dapat dikontrol dan komplikasi dapat dicegah."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Diabetes Mellitus",
+    "Kode_ICD": "E10-E14",
+    "Istilah_medis": "Diabetes",
+    "Kategori_penyakit": ["Penyakit Sistemik", "Metabolik"],
+    "Definisi": "Diabetes mellitus adalah penyakit metabolik yang ditandai dengan kadar gula darah tinggi akibat gangguan produksi atau fungsi insulin.",
+    "Penyebab": {
+      "tipe_1": {
+        "nama": "Tipe 1",
+        "penyebab": ["Autoimun menghancurkan sel beta pankreas"]
+      },
+      "tipe_2": {
+        "nama": "Tipe 2",
+        "penyebab": ["Resistensi insulin", "Obesitas", "Faktor genetik"]
+      },
+      "lainnya": {
+        "nama": "Lainnya",
+        "penyebab": ["Diabetes gestasional", "Penyakit pankreas"]
+      }
+    },
+    "Klasifikasi": {
+      "tipe": {
+        "nama": "Berdasarkan Tipe",
+        "jenis": ["Tipe 1", "Tipe 2", "Gestasional"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": [
+          "Polidipsia (sering haus)",
+          "Poliuria (sering buang air kecil)",
+          "Polifagia (sering lapar)"
+        ]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Penurunan berat badan",
+          "Kelelahan",
+          "Penglihatan kabur",
+          "Infeksi berulang"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": [
+          "Riwayat gejala klasik",
+          "Riwayat keluarga",
+          "Riwayat obesitas"
+        ]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Pemeriksaan berat badan", "Pemeriksaan tanda komplikasi"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Gula darah puasa", "HbA1c", "Tes toleransi glukosa"]
+      }
+    },
+    "Kompilasi": [
+      "Neuropati",
+      "Retinopati",
+      "Nefropati",
+      "Penyakit jantung",
+      "Stroke"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Diet sehat", "Olahraga teratur", "Kontrol berat badan"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": ["Insulin (tipe 1)", "Obat oral diabetes (tipe 2)"]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Daun insulin", "Bawang putih", "Kayu manis"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Gula darah tidak terkendali",
+          "Gejala komplikasi",
+          "Kehamilan dengan diabetes"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Menjaga berat badan ideal",
+        "Olahraga rutin",
+        "Diet rendah gula",
+        "Cek gula darah rutin"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Dengan pengelolaan baik, komplikasi dapat dicegah, namun diabetes tipe 1 memerlukan insulin seumur hidup."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Asma",
+    "Kode_ICD": "J45",
+    "Istilah_medis": "Asthma",
+    "Kategori_penyakit": ["Penyakit Saluran Pernapasan", "Inflamasi Kronis"],
+    "Definisi": "Asma adalah penyakit inflamasi kronis pada saluran napas yang menyebabkan sesak napas, batuk, mengi, dan dada terasa sesak.",
+    "Penyebab": {
+      "alergi": {
+        "nama": "Alergi",
+        "penyebab": ["Debu rumah", "Serbuk sari", "Bulu hewan"]
+      },
+      "infeksi": {
+        "nama": "Infeksi",
+        "penyebab": ["Infeksi saluran pernapasan atas"]
+      },
+      "faktor_lain": {
+        "nama": "Faktor Lain",
+        "penyebab": ["Olahraga", "Stres", "Udara dingin", "Polusi"]
+      }
+    },
+    "Klasifikasi": {
+      "keparahan": {
+        "nama": "Berdasarkan Keparahan",
+        "jenis": [
+          "Ringan Intermiten",
+          "Ringan Persisten",
+          "Sedang Persisten",
+          "Berat Persisten"
+        ]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Sesak napas", "Mengi (napas berbunyi)"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Batuk terutama malam/hari",
+          "Dada terasa sesak",
+          "Kelelahan"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat gejala", "Pemicu alergi", "Riwayat keluarga"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Mengi saat napas", "Pemeriksaan paru"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Spirometri", "Tes alergi", "Peak flow meter"]
+      }
+    },
+    "Kompilasi": ["Serangan asma akut", "Infeksi paru", "Pneumothorax"],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Hindari pemicu", "Olahraga ringan", "Kontrol alergi"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Inhaler bronkodilator",
+          "Kortikosteroid inhalasi",
+          "Obat anti-inflamasi oral"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Jahe", "Bawang putih", "Madu"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Serangan berat tidak merespon obat",
+          "Sesak napas berat",
+          "Infeksi paru berulang"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Hindari alergen dan iritan",
+        "Vaksinasi flu tahunan",
+        "Jaga kebersihan lingkungan"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Asma dapat dikendalikan dengan obat dan penghindaran pemicu. Serangan berat dapat mengancam nyawa."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Pneumonia",
+    "Kode_ICD": "J18",
+    "Istilah_medis": "Pneumonia",
+    "Kategori_penyakit": [
+      "Penyakit Saluran Pernapasan",
+      "Infeksi Bakteri/Virus"
+    ],
+    "Definisi": "Pneumonia adalah infeksi paru yang menyebabkan peradangan alveoli, ditandai demam, batuk, sesak napas, dan nyeri dada.",
+    "Penyebab": {
+      "infeksi_bakteri": {
+        "nama": "Bakteri",
+        "penyebab": ["Streptococcus pneumoniae", "Haemophilus influenzae"]
+      },
+      "infeksi_virus": {
+        "nama": "Virus",
+        "penyebab": ["Influenza virus", "RSV", "COVID-19"]
+      },
+      "lainnya": {
+        "nama": "Lainnya",
+        "penyebab": ["Jamur (jarang)", "Aspirasi makanan/air"]
+      }
+    },
+    "Klasifikasi": {
+      "lokasi": {
+        "nama": "Berdasarkan Lokasi",
+        "jenis": ["Paru kanan", "Paru kiri", "Kedua paru"]
+      },
+      "keparahan": {
+        "nama": "Berdasarkan Keparahan",
+        "jenis": ["Ringan", "Sedang", "Berat / membutuhkan rawat inap"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Batuk dengan dahak", "Demam tinggi", "Sesak napas"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": ["Nyeri dada", "Menggigil", "Kelelahan", "Mual/muntah"]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat gejala batuk dan demam", "Kontak dengan penderita"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Auskultasi paru", "Palpasi dada"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Rontgen dada", "Tes darah", "Tes dahak untuk bakteri/virus"]
+      }
+    },
+    "Kompilasi": ["Bronkitis", "Sepsis", "Gagal pernapasan"],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Istirahat cukup", "Hidrasi adekuat", "Nutrisi seimbang"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Antibiotik (bakteri)",
+          "Antivirus jika virus tertentu",
+          "Obat pereda gejala"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Jahe", "Madu", "Teh herbal"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Demam tinggi + sesak napas",
+          "Pneumonia berat",
+          "Komplikasi pada lansia/anak"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Vaksinasi pneumokokus",
+        "Vaksinasi flu",
+        "Hindari rokok dan polusi",
+        "Cuci tangan rutin"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Pneumonia ringan dapat sembuh dalam 1-2 minggu dengan pengobatan. Komplikasi dapat terjadi pada kelompok rentan."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Tuberkulosis (TBC)",
+    "Kode_ICD": "A15-A19",
+    "Istilah_medis": "Tuberculosis",
+    "Kategori_penyakit": ["Penyakit Infeksi", "Saluran Pernapasan"],
+    "Definisi": "TBC adalah infeksi kronis yang disebabkan oleh bakteri Mycobacterium tuberculosis, biasanya menyerang paru tetapi dapat ke organ lain.",
+    "Penyebab": {
+      "infeksi": {
+        "nama": "Infeksi Bakteri",
+        "penyebab": ["Mycobacterium tuberculosis"]
+      }
+    },
+    "Klasifikasi": {
+      "lokasi": {
+        "nama": "Berdasarkan Lokasi",
+        "jenis": ["Paru", "Ekstra paru"]
+      },
+      "aktivitas": {
+        "nama": "Berdasarkan Aktivitas",
+        "jenis": ["TBC aktif", "TBC laten"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Batuk berkepanjangan >2 minggu", "Batuk berdarah"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Demam malam hari",
+          "Keringat malam",
+          "Penurunan berat badan",
+          "Lemas"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat batuk >2 minggu", "Kontak dengan penderita TBC"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Auskultasi paru", "Pemeriksaan limfa"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": [
+          "Tes dahak (mikroskop, kultur)",
+          "Rontgen dada",
+          "Tes Mantoux / IGRA"
+        ]
+      }
+    },
+    "Kompilasi": ["Pneumonia kronis", "Gagal paru", "Infeksi organ lain"],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Istirahat cukup", "Gizi seimbang"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Regimen kombinasi antibiotik TBC (Isoniazid, Rifampisin, Pyrazinamid, Ethambutol) selama 6-9 bulan"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Daun pegagan", "Jahe"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": ["TBC aktif", "Batuk berdarah", "Komplikasi paru"]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Vaksin BCG",
+        "Hindari kontak dengan penderita TBC aktif",
+        "Ventilasi ruang baik"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Dengan pengobatan lengkap, TBC sembuh. TBC yang tidak diobati dapat berakibat fatal."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Cacar Air",
+    "Kode_ICD": "B01",
+    "Istilah_medis": "Varicella",
+    "Kategori_penyakit": ["Infeksi Virus", "Penyakit Menular"],
+    "Definisi": "Cacar air adalah infeksi virus varicella-zoster yang menyebabkan ruam berair, gatal, demam, dan lesi kulit khas.",
+    "Penyebab": {
+      "infeksi": { "nama": "Virus", "penyebab": ["Varicella-Zoster Virus"] }
+    },
+    "Klasifikasi": {
+      "keparahan": {
+        "nama": "Berdasarkan Keparahan",
+        "jenis": ["Ringan", "Sedang", "Berat / komplikasi"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Rash berair khas, mulai di wajah dan tubuh"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Demam",
+          "Rasa tidak enak badan",
+          "Gatal parah",
+          "Nyeri kepala"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": [
+          "Riwayat kontak dengan penderita cacar air",
+          "Riwayat vaksinasi"
+        ]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Inspeksi ruam kulit"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Tes serologi jika perlu"]
+      }
+    },
+    "Kompilasi": [
+      "Infeksi sekunder kulit",
+      "Pneumonia varicella",
+      "Ensefalitis jarang terjadi"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Istirahat", "Hidrasi cukup", "Hindari menggaruk ruam"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Antivirus (Acyclovir) jika berat",
+          "Antihistamin untuk gatal"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Lidah buaya", "Mandi oatmeal"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Komplikasi pneumonia",
+          "Infeksi berat pada imunokompromais"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Vaksinasi varicella",
+        "Hindari kontak dengan penderita aktif"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Sebagian besar anak sembuh tanpa komplikasi. Dewasa dan imunokompromais berisiko komplikasi."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Eksim / Dermatitis Atopik",
+    "Kode_ICD": "L20",
+    "Istilah_medis": "Atopic Dermatitis",
+    "Kategori_penyakit": ["Penyakit Kulit", "Inflamasi Kronis"],
+    "Definisi": "Eksim adalah kondisi kulit kronis yang ditandai gatal, kemerahan, kulit kering, dan peradangan berulang.",
+    "Penyebab": {
+      "faktor_genetik": {
+        "nama": "Genetik",
+        "penyebab": ["Riwayat keluarga alergi / eksim"]
+      },
+      "faktor_aloergen": {
+        "nama": "Alergen",
+        "penyebab": ["Debu, Serbuk sari, Makanan tertentu"]
+      },
+      "faktor_lingkungan": {
+        "nama": "Lingkungan",
+        "penyebab": ["Cuaca kering", "Iritan kulit (sabun keras)"]
+      }
+    },
+    "Klasifikasi": {
+      "keparahan": {
+        "nama": "Berdasarkan Keparahan",
+        "jenis": ["Ringan", "Sedang", "Berat"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Gatal parah", "Kulit kering dan bersisik"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": ["Kemerahan", "Luka akibat garukan", "Infeksi kulit sekunder"]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat keluarga alergi/eksim", "Pemicu alergi"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Inspeksi kulit", "Tanda inflamasi kronis"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["Tes alergi jika perlu"]
+      }
+    },
+    "Kompilasi": ["Infeksi kulit sekunder", "Dermatitis nummular", "Psoriasis"],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Hidrasi kulit rutin", "Hindari pemicu", "Pakaian lembut"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Kortikosteroid topikal",
+          "Imunosupresan topikal",
+          "Antihistamin untuk gatal"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Aloe vera", "Minyak kelapa", "Oatmeal bath"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": ["Eksim berat atau meluas", "Infeksi kulit berulang"]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Hindari alergen dan iritan",
+        "Perawatan kulit rutin",
+        "Jaga kelembapan kulit"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Eksim dapat terkendali dengan perawatan rutin. Serangan berulang umum terjadi."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Migrain",
+    "Kode_ICD": "G43",
+    "Istilah_medis": "Migraine",
+    "Kategori_penyakit": ["Penyakit Neurologis", "Sakit Kepala"],
+    "Definisi": "Migrain adalah sakit kepala berulang dengan intensitas sedang hingga berat, sering disertai mual, muntah, dan sensitivitas terhadap cahaya atau suara.",
+    "Penyebab": {
+      "genetik": {
+        "nama": "Genetik",
+        "penyebab": ["Riwayat keluarga migrain"]
+      },
+      "pemicu_lingkungan": {
+        "nama": "Pemicu",
+        "penyebab": [
+          "Stres",
+          "Kurang tidur",
+          "Perubahan hormon",
+          "Makanan tertentu",
+          "Cahaya terang"
+        ]
+      }
+    },
+    "Klasifikasi": {
+      "tipe": {
+        "nama": "Berdasarkan Tipe",
+        "jenis": ["Dengan aura", "Tanpa aura"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Sakit kepala sebelah", "Berdenyut / berintensitas tinggi"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Mual/muntah",
+          "Sensitivitas cahaya dan suara",
+          "Pusing",
+          "Aura visual atau sensorik"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat sakit kepala", "Pemicu migrain", "Riwayat keluarga"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Pemeriksaan neurologis", "Tanda vital"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["CT/MRI jika gejala abnormal atau baru"]
+      }
+    },
+    "Kompilasi": [
+      "Sakit kepala tegang",
+      "Cluster headache",
+      "Stroke (jarang komplikasi)"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Istirahat di ruangan gelap dan sepi", "Hindari pemicu"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Obat analgesik (NSAID)",
+          "Triptan",
+          "Obat pencegahan jika sering"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Peppermint oil", "Jahe", "Magnesium"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Migrain berat sering",
+          "Tidak responsif obat",
+          "Sakit kepala baru pada usia >50"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Catat pemicu migrain",
+        "Tidur cukup",
+        "Hindari stres",
+        "Hindari makanan pemicu"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Migrain dapat terkendali dengan penghindaran pemicu dan obat. Serangan bisa berulang sepanjang hidup."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Anemia",
+    "Kode_ICD": "D50-D64",
+    "Istilah_medis": "Anemia",
+    "Kategori_penyakit": ["Penyakit Sistemik", "Gangguan Darah"],
+    "Definisi": "Anemia adalah kondisi kadar hemoglobin atau sel darah merah rendah sehingga tubuh kekurangan oksigen.",
+    "Penyebab": {
+      "defisiensi": {
+        "nama": "Defisiensi",
+        "penyebab": ["Kekurangan zat besi", "Kekurangan vitamin B12 / folat"]
+      },
+      "penyakit_kronis": {
+        "nama": "Penyakit Kronis",
+        "penyebab": ["Gagal ginjal kronis", "Penyakit autoimun"]
+      },
+      "kerugian_darah": {
+        "nama": "Kehilangan Darah",
+        "penyebab": ["Pendarahan akut / kronis", "Operasi"]
+      }
+    },
+    "Klasifikasi": {
+      "tipe": {
+        "nama": "Berdasarkan Tipe",
+        "jenis": ["Mikrositik", "Makrositik", "Normositik"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": ["Lemas", "Pucat", "Sesak napas"]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": [
+          "Pusing",
+          "Jantung berdebar",
+          "Kehilangan konsentrasi",
+          "Nyeri kepala"
+        ]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat diet", "Riwayat perdarahan", "Gejala kelelahan"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": ["Pucat kulit/membran mukosa", "Pemeriksaan tanda vital"]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": [
+          "Hemoglobin / hematokrit",
+          "Tes darah lengkap",
+          "Serum ferritin, vitamin B12"
+        ]
+      }
+    },
+    "Kompilasi": [
+      "Anemia defisiensi besi",
+      "Anemia megaloblastik",
+      "Anemia aplastik"
+    ],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": ["Nutrisi adekuat", "Istirahat cukup"]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Suplemen zat besi",
+          "Vitamin B12 / folat",
+          "Transfusi darah jika berat"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Daun katuk", "Kelor", "Buah bit"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "Anemia berat",
+          "Tidak responsif terapi oral",
+          "Anemia akibat penyakit kronis"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Asupan gizi seimbang",
+        "Cek darah rutin",
+        "Kendalikan perdarahan kronis"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Sebagian besar anemia dapat sembuh dengan perbaikan gizi atau terapi medis sesuai penyebab."
+    },
+    "Gambar_Pendukung": ""
+  },
+  {
+    "Nama_penyakit": "Gagal Ginjal Kronis",
+    "Kode_ICD": "N18",
+    "Istilah_medis": "Chronic Kidney Disease (CKD)",
+    "Kategori_penyakit": ["Penyakit Sistemik", "Ginjal & Saluran Kemih"],
+    "Definisi": "Gagal ginjal kronis adalah penurunan fungsi ginjal secara bertahap yang berlangsung >3 bulan sehingga ginjal tidak mampu membuang limbah dan cairan berlebih.",
+    "Penyebab": {
+      "diabetes": {
+        "nama": "Diabetes Mellitus",
+        "penyebab": ["Diabetes tipe 1 atau 2"]
+      },
+      "hipertensi": {
+        "nama": "Hipertensi",
+        "penyebab": ["Tekanan darah tinggi kronis"]
+      },
+      "lainnya": {
+        "nama": "Lainnya",
+        "penyebab": [
+          "Penyakit ginjal polikistik",
+          "Infeksi ginjal berulang",
+          "Obstruksi saluran kemih"
+        ]
+      }
+    },
+    "Klasifikasi": {
+      "stadium": {
+        "nama": "Berdasarkan Stadium",
+        "jenis": ["Stadium 1-5 berdasarkan eGFR"]
+      }
+    },
+    "Gejala": {
+      "utama": {
+        "nama": "Gejala Utama",
+        "gejala": [
+          "Kelelahan",
+          "Penurunan volume urine",
+          "Pembengkakan anggota tubuh"
+        ]
+      },
+      "penyerta": {
+        "nama": "Gejala Penyerta",
+        "gejala": ["Mual/muntah", "Gatal", "Sesak napas", "Hipertensi"]
+      }
+    },
+    "Diagnosis": {
+      "anamnesis": {
+        "nama": "Anamnesis",
+        "metode": ["Riwayat penyakit ginjal, hipertensi, diabetes"]
+      },
+      "pemeriksaan_fisik": {
+        "nama": "Pemeriksaan Fisik",
+        "metode": [
+          "Tanda edema",
+          "Tekanan darah",
+          "Pemeriksaan jantung dan paru"
+        ]
+      },
+      "pemeriksaan_penunjang": {
+        "nama": "Pemeriksaan Penunjang",
+        "metode": ["eGFR, kreatinin serum", "Urinalisis", "USG ginjal"]
+      }
+    },
+    "Kompilasi": ["Gagal ginjal akut", "Anemia ginjal", "Hipertensi sekunder"],
+    "Cara_Penanganan": {
+      "perawatan_umum": {
+        "nama": "Perawatan Umum",
+        "jenis": [
+          "Kontrol tekanan darah dan gula darah",
+          "Diet rendah protein natrium"
+        ]
+      },
+      "obat_medis": {
+        "nama": "Obat Medis",
+        "jenis": [
+          "Obat antihipertensi",
+          "Eritropoietin jika anemia",
+          "Dialisis jika stadium lanjut"
+        ]
+      },
+      "obat_herbal": {
+        "nama": "Obat Herbal",
+        "jenis": ["Teh daun salam", "Daun kumis kucing"]
+      },
+      "rujukan_dokter": {
+        "nama": "Rujukan Dokter",
+        "kriteria": [
+          "eGFR <30",
+          "Gejala uremia",
+          "Perlu dialisis atau transplantasi"
+        ]
+      }
+    },
+    "Pencegahan": {
+      "nama": "Pencegahan",
+      "langkah": [
+        "Kontrol diabetes dan hipertensi",
+        "Hindari obat nefrotoksik",
+        "Hidrasi cukup"
+      ]
+    },
+    "Prognosis": {
+      "nama": "Prognosis",
+      "deskripsi": "Jika terdeteksi dini dan dikendalikan, progresi dapat melambat. Stadium lanjut memerlukan dialisis atau transplantasi."
+    },
+    "Gambar_Pendukung": ""
+  }
+]

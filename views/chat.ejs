@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gemini Prompt Test</title>
+  </head>
+  <body>
+    <h2>Kirim Prompt ke API Gemini</h2>
+
+    <form id="promptForm">
+      <textarea
+        id="promptInput"
+        placeholder="Tulis prompt di sini..."
+        rows="4"
+        cols="50"
+      ></textarea
+      ><br />
+      <button type="submit">Kirim</button>
+    </form>
+
+    <h3>Respon dari API:</h3>
+    <div id="responseBox"></div>
+
+    <script>
+      document
+        .getElementById("promptForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const prompt = document.getElementById("promptInput").value;
+
+          const res = await fetch("http://localhost:3000/api/ask", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ prompt }),
+          });
+
+          const data = await res.json();
+          let responseText = data.response;
+
+          // Contoh: daftar penyakit yang ada di sistem
+          const penyakitList = ["Batuk", "Demam", "Flu", "Sakit Kepala"];
+
+          // Ganti nama penyakit dalam teks menjadi link
+          penyakitList.forEach((penyakit) => {
+            const regex = new RegExp(`\\b${penyakit}\\b`, "g");
+            responseText = responseText.replace(
+              regex,
+              `<a href="/penyakit/${penyakit.toLowerCase()}" style="color:blue; text-decoration:underline;">${penyakit}</a>`
+            );
+          });
+
+          document.getElementById("responseBox").innerHTML = responseText;
+        });
+    </script>
+  </body>
+</html>
