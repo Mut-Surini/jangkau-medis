@@ -7,6 +7,7 @@ const bcrypt = require("bcryptjs");
 const session = require("express-session");
 const bodyParser = require("body-parser");
 const path = require("path");
+const cors = require("cors")
 
 dotenv.config();
 
@@ -17,20 +18,21 @@ const penyakitData = JSON.parse(
   fs.readFileSync(path.join(__dirname, "penyakit.json"), "utf-8")
 );
 
-app.use(express.json());
-app.set("view engine", "ejs");
-app.set("views", "./views");
-
 // MIDDLEWARE
-
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("views"));
+app.use(express.json());
 const ensureAuthenticated = require("./middleware/auth");
 app.use(
   session({
     secret: "secret-key",
     resave: false,
-    saveUninitialized: true,
+    saveUninitialized: true
   })
 );
 
@@ -132,13 +134,13 @@ app.get("/register", (req, res) => {
   res.render("register", { error: null });
 });
 
-app.get("/login", (req, res) => {
-  if (req.session.user) {
-    return res.redirect("/");
-  }
+// app.get("/login", (req, res) => {
+//   if (req.session.user) {
+//     return res.redirect("/");
+//   }
 
-  res.render("login", { error: null });
-});
+//   res.render("login", { error: null });
+// });
 
 app.post("/register", async (req, res) => {
   const { name, email, password } = req.body;
@@ -157,31 +159,33 @@ app.post("/register", async (req, res) => {
   );
 });
 
-app.post("/login", (req, res) => {
+app.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
   db.query(
     "SELECT * FROM users WHERE email = ?",
     [email],
     async (err, results) => {
-      if (err) throw err;
+      if (err) return res.status(500).json({ error: "Database error" });
 
-      if (results.length === 0) {
-        return res.render("login", { error: "User tidak ditemukan!" });
-      }
+        if (results.length === 0) {
+          return res.status(401).json({ success: false, message: "Email atau password salah" });
+        }
 
       const user = results[0];
       const match = await bcrypt.compare(password, user.password);
 
       if (match) {
-        req.session.user = user;
-        res.redirect("/");
+        req.session.user = { id: user.id, email: user.email };
+        res.json({ success: true, message: "Login berhasil", user: { id: user.id, email: user.email } });
       } else {
-        res.render("login", { error: "Password salah!" });
+        res.status(401).json({ success: false, message: "Email atau password salah"});
       }
     }
   );
 });
+
+
 
 app.get("/logout", (req, res) => {
   req.session.destroy();
