@@ -1,19 +1,21 @@
 import { useState } from "react"
 import {Link, Navigate} from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
+import Alert from "../components/Alert";
 
 function Signin() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [message, setMessage] = useState("");
-  const Navigate = useNavigate();
+  const [alert, setAlert] = useState(null)
+  const navigate = useNavigate();
 
   //Handle Login
   const handleLogin = async (e) => {
     e.preventDefault();
 
     try {
+      setAlert(null);
       const response = await fetch("http://localhost:3000/login", {
         method: "POST",
         headers: {
@@ -25,18 +27,26 @@ function Signin() {
       const data = await response.json();
 
       if (data.success) {
-        Navigate("/dashboard");
+        navigate("/dashboard");
       } else {
-        setMessage(data.message);
+        setAlert({type: "error", message: data.message});
+        setEmail("");
+        setPassword("");
       }
     } catch (error) {
       console.error("Error:", error);
-      setMessage("Terjadi kesalahan server");
+      setAlert({type: "error", message:"Terjadi kesalahan server"});
     }
   };
 
   return (
     <div className="max-h-screen overflow-hidden flex flex-col relative bg-no-repeat bg-cover bg-center" style={{backgroundImage: "url('/assets/img/background.png')"}}>
+      {alert && (
+        <Alert
+          type={alert.type}
+          message={alert.message}
+        />
+      )}
       <div className="absolute w-48 h-48 rounded-full bg-teal-500 -top-25 -left-25"></div>
       <div className="absolute w-48 h-48 rounded-full bg-orange-500 -bottom-25 -right-25"></div>
       <div className="text-center pt-12">
@@ -82,10 +92,9 @@ function Signin() {
                   required
                 />
               </div>
-              {message && <p className="mt-3 text-center text-sm">{message}</p>}
               <button
                 type="submit"
-                className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-6 rounded-xl text-base transition-colors duration-200 mt-8"
+                className="w-full hover:cursor-pointer bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-6 rounded-xl text-base transition-colors duration-200 mt-8"
               >
                 Sign In
               </button>
