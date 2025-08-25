@@ -126,13 +126,13 @@ app.post("/api/ask", async (req, res) => {
   }
 });
 
-app.get("/register", (req, res) => {
-  if (req.session.user) {
-    return res.redirect("/");
-  }
+// app.get("/register", (req, res) => {
+//   if (req.session.user) {
+//     return res.redirect("/");
+//   }
 
-  res.render("register", { error: null });
-});
+//   res.render("register", { error: null });
+// });
 
 // app.get("/login", (req, res) => {
 //   if (req.session.user) {
@@ -143,18 +143,20 @@ app.get("/register", (req, res) => {
 // });
 
 app.post("/register", async (req, res) => {
-  const { name, email, password } = req.body;
+  const { fullname, email, password, confirmPassword } = req.body;
+  if(password !== confirmPassword){
+    return res.status(401).json({ success: false, message: "Konfirmasi password harus sama dengan password" });
+  }
   const hashedPassword = await bcrypt.hash(password, 10);
 
   db.query(
     "INSERT INTO users (name, email, password) VALUES (?, ?, ?)",
-    [name, email, hashedPassword],
+    [fullname, email, hashedPassword],
     (err) => {
       if (err) {
-        console.error(err);
-        return res.render("register", { error: "Email sudah digunakan!" });
+        return res.status(401).json({ success: false, message: "Email telah digunakan" });
       }
-      res.redirect("/");
+      res.json({ success: true, message: "Registrasi berhasil, silahkan login!"});
     }
   );
 });

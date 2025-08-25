@@ -30,7 +30,6 @@ function Signin() {
         navigate("/dashboard");
       } else {
         setAlert({type: "error", message: data.message});
-        setEmail("");
         setPassword("");
       }
     } catch (error) {
